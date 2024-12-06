@@ -1,7 +1,7 @@
-package com.tsswebapps.processador_services.service;
+package com.tsswebapps.processador.service;
 
-import com.tsswebapps.processador_services.entity.ItemPedido;
-import com.tsswebapps.processador_services.repository.ProdutoRepository;
+import com.tsswebapps.processador.entity.ItemPedido;
+import com.tsswebapps.processador.repository.ProdutoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

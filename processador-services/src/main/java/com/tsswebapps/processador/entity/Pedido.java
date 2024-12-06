@@ -1,10 +1,9 @@
-package com.tsswebapps.processador_services.entity;
+package com.tsswebapps.processador.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.tsswebapps.processador_services.entity.enums.Status;
+import com.tsswebapps.processador.entity.enums.Status;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;

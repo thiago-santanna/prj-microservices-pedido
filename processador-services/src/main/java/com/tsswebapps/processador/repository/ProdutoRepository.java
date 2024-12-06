@@ -1,6 +1,6 @@
-package com.tsswebapps.processador_services.repository;
+package com.tsswebapps.processador.repository;
 
-import com.tsswebapps.processador_services.entity.Produto;
+import com.tsswebapps.processador.entity.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

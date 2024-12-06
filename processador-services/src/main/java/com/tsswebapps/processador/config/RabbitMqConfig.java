@@ -1,4 +1,4 @@
-package com.tsswebapps.processador_services.config;
+package com.tsswebapps.processador.config;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

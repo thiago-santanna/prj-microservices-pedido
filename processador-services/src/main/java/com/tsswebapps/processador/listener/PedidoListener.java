@@ -1,8 +1,7 @@
-package com.tsswebapps.processador_services.listener;
+package com.tsswebapps.processador.listener;
 
-import com.tsswebapps.processador_services.entity.Pedido;
-import com.tsswebapps.processador_services.entity.enums.Status;
-import com.tsswebapps.processador_services.service.PedidoService;
+import com.tsswebapps.processador.entity.Pedido;
+import com.tsswebapps.processador.service.PedidoService;
 import org.slf4j.Logger;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;

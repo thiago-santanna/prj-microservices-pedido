@@ -1,4 +1,4 @@
-package com.tsswebapps.processador_services.entity;
+package com.tsswebapps.processador.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

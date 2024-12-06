@@ -1,4 +1,4 @@
-package com.tsswebapps.processador_services;
+package com.tsswebapps.processador;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

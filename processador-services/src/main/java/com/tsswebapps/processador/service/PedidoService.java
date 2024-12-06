@@ -1,8 +1,8 @@
-package com.tsswebapps.processador_services.service;
+package com.tsswebapps.processador.service;
 
-import com.tsswebapps.processador_services.entity.ItemPedido;
-import com.tsswebapps.processador_services.entity.Pedido;
-import com.tsswebapps.processador_services.repository.PedidoRepository;
+import com.tsswebapps.processador.entity.ItemPedido;
+import com.tsswebapps.processador.entity.Pedido;
+import com.tsswebapps.processador.repository.PedidoRepository;
 import org.slf4j.Logger;
 import org.springframework.stereotype.Service;
 
