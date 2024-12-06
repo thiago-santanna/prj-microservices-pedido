@@ -16,8 +16,18 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
         <module name="processador-services" />
+      </profile>
+      <profile name="Annotation profile for processador" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="processador" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +35,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="notificacao-service" options="-parameters" />
       <module name="pedidos-api" options="-parameters" />
+      <module name="processador" options="-parameters" />
       <module name="processador-services" options="-parameters" />
     </option>
   </component>
