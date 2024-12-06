@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pedidos-api/pom.xml" />
         <option value="$PROJECT_DIR$/notificacao-service/pom.xml" />
         <option value="$PROJECT_DIR$/processador-services/pom.xml" />
+        <option value="$PROJECT_DIR$/processarpedido/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
