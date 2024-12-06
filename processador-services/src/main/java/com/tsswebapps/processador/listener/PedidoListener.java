@@ -20,6 +20,7 @@ public class PedidoListener {
     @RabbitListener(queues = "pedidos.v1.pedido-criado.gerar-processamento")
     public void processarPedido(Pedido pedido) {
         logger.info("Processando pedido: {}", pedido.toString());
+        //teste para simular um erro
         try {
             Thread.sleep(10000);
         } catch (InterruptedException e) {
